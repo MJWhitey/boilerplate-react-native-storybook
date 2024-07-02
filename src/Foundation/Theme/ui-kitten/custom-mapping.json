@@ -1,0 +1,111 @@
+{
+  "strict": {
+    "text-font-family": "SharpSansDisplayNo2-Medium",
+    "text-heading-1-font-family": "SharpSansDisplayNo2-Bold",
+    "text-heading-1-font-size": 24,
+    "text-subtitle-1-font-family": "SharpSansDisplayNo2-SemiBold",
+    "text-subtitle-1-font-size": 16,
+    "text-subtitle-2-font-size": 16,
+    "text-paragraph-1-font-family": "SharpSansDisplayNo2-SemiBold",
+    "text-paragraph-1-font-size": 12,
+    "text-caption-1-font-family": "SharpSansDisplayNo2-Bold",
+    "text-caption-1-font-size": 12,
+    "text-caption-2-font-family": "SharpSansDisplayNo2-Medium",
+    "text-caption-2-font-size": 10,
+    "text-label-font-family": "SharpSansDisplayNo2-Bold",
+    "text-label-font-size": 12,
+    "text-subtitle-2-font-family": "SharpSansDisplayNo2-Bold",
+    "border-basic-color-4": "#E6E6E6",
+    "background-basic-color-2": "#F2F2F2",
+    "background-basic-color-3": "#E6E6E6",
+    "background-basic-color-4": "#ffffff",
+    "text-basic-color": "#333333",
+    "text-basic-color-1": "#0073B2",
+    "text-hint-color-1": "#0073B2",
+    "text-subtitle-1-font-weight-1": "700",
+    "text-subtitle-1-font-size-1": 16
+  },
+  "components": {
+    "Card": {
+      "appearances": {
+        "outline": {
+          "mapping": {
+            "bodyPaddingHorizontal": -24,
+            "bodyPaddingVertical": -16,
+            "borderRadius": 0
+          }
+        }
+      },
+      "meta": {
+        "scope": "mobile",
+        "appearances": {},
+        "parameters": {},
+        "states": {},
+        "variantGroups": {}
+      }
+    },
+    "Select": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "textMarginHorizontal": 10,
+            "popoverMaxHeight": 368
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "borderColor": "background-basic-color-2",
+                "backgroundColor": "background-basic-color-2",
+                "textColor": "text-basic-color-1",
+                "labelColor": "text-hint-color-1",
+                "captionColor": "text-hint-color-1",
+                "placeholderColor": "text-hint-color-1"
+              }
+            },
+            "size": {
+              "large": {
+                "textFontSize": "text-subtitle-1-font-size-1",
+                "textFontWeight": "text-subtitle-1-font-weight-1"
+              }
+            }
+          }
+        },
+        "whiteBackground": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "backgroundColor": "background-basic-color-4"
+              }
+            }
+          }
+        }
+      },
+      "meta": {
+        "scope": "mobile",
+        "appearances": {},
+        "parameters": {},
+        "states": {},
+        "variantGroups": {}
+      }
+    },
+    "SelectOption": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "textColor": "text-basic-color-1",
+            "textFontWeight": "text-subtitle-1-font-weight-1",
+            "textMarginHorizontal": 0
+          }
+        }
+      },
+      "meta": {
+        "scope": "mobile",
+        "appearances": {},
+        "parameters": {},
+        "states": {},
+        "variantGroups": {}
+      }
+    }
+  }
+}
